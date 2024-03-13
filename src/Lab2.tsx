@@ -16,6 +16,7 @@ const Lab2 = () => {
                     Мета
                     Місце розташування лаби №2
                 </button>
+                <button style={{width: 'fit-content'}} onClick={() => setTab(8)}>Способи підключення стилів</button>
                 <button style={{width: 'fit-content'}} onClick={() => setTab(3)}>Селектор тегу </button>
                 <button style={{width: 'fit-content'}} onClick={() => setTab(4)}>Селектор класу</button>
                 <button style={{width: 'fit-content'}} onClick={() => setTab(5)}>Селектори ідентифікаторів</button>
@@ -44,6 +45,16 @@ const Lab2 = () => {
                         <br />
                         Проєкт: <a>https://github.com/Markusplay/pizzeria</a>
                     </p>
+                    }
+                    {tab === 8 &&
+                    <div style={{width:'100%'}}>
+                        <h3>Зовнішні стилі</h3>
+                        <img src="lab2/sl1.png"/>
+                        <h3>Таблиці стилів документу</h3>
+                        <img src="lab2/sl2.png"/>
+                        <h3>Inline-стилі</h3>
+                        <img src="lab2/sl3.png"/> 
+                    </div>
                     }
                     {tab === 3 &&
                     <div style={{width:'100%'}}>
