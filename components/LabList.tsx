@@ -1,5 +1,5 @@
 const LabList = () => {
-    const labs=["/lab1","/lab2","/lab3","/lab4","/lab5"]
+    const labs=["/lab1","/lab2","/lab3","/lab4","/lab5","/lab6","/lab7","/lab8"]
     return (
         <>
             <div style={{display:'flex', justifyContent:'space-around'}}>
