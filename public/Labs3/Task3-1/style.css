@@ -24,7 +24,19 @@ html, body{
 }
 .headItems{
     display: flex;
+    flex-direction: row;
+    gap:10px;
     justify-content: center;
+}
+
+@media screen and (max-width:769px) {
+  .headItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
 }
 
 .content{
@@ -39,6 +51,7 @@ html, body{
   .flex-container1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .flex-container1 > div{
     margin: 10px;
