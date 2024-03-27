@@ -13,12 +13,12 @@ const Lab3 = () => {
                     Мета
                     Місце розташування лаби №3
                 </button>
-                <button style={{width: 'fit-content'}}><a href="../Lab3/Task1/index.html">Завдання №1. Зовнішній вигляд макету. Код макету</a></button>
+                <button style={{width: 'fit-content'}}><a href="Labs3/Task1/index.html">Завдання №1. Зовнішній вигляд макету. Код макету</a></button>
                 <button style={{width: 'fit-content'}}>Завдання №2</button>
-                <a href="../Lab3/Task2-1/index.html">Фіксована таблична верстка</a>
-                <a href="../Lab3/Task2-2/index.html">Гумова таблична верстка</a>
-                <a href="../Lab3/Task2-3/index.html">Фіксована блокова верстка</a>
-                <a href="../Lab3/Task2-4/index.html">Гумова блокова верстка</a>
+                <a href="Labs3/Task2-1/index.html">Фіксована таблична верстка</a>
+                <a href="Labs3/Task2-2/index.html">Гумова таблична верстка</a>
+                <a href="Labs3/Task2-3/index.html">Фіксована блокова верстка</a>
+                <a href="Labs3/Task2-4/index.html">Гумова блокова верстка</a>
                 <button style={{width: 'fit-content'}}>Завдання №3 FLEXBOX</button>
                 <button style={{width: 'fit-content'}} onClick={() => setTab(2)}>Зовнішній вигляд</button>
                 <button style={{width: 'fit-content'}} onClick={() => setTab(3)}>HTML-код</button>
