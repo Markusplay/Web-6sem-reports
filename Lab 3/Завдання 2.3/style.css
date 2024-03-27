@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1879px;
+  overflow: hidden;
+}
+.head {
+  width: 1879px;
+  height: 60px;
+  position:relative;
+  background: yellow;
+  overflow:hidden;
+  text-align: center;
+}
+.main_area{
+  width: 100%;
+  
+}
+.sidebar {
+  width: 300px;
+  height: 756px;
+  padding-top: 1px;
+  text-align: center;
+  background: aqua;
+ 
+}
+.content {
+  width: 1550px;
+  
+  float: left;
+  margin: -750px 10px 10px 305px;
+  height: 740px;
+ 
+}
+.topic{
+  background: red;
+  width: 1207px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 215px;
+  padding-bottom: 15px;
+  height: 40px;
+  text-align: center;
+}
+.leftcontent{
+  background: whitesmoke;
+  width: 800px;
+  float: left;
+  border: 1px solid black;
+  margin: 30px 10px 10px 215px;
+  height: 600px;
+  text-align: center;
+}
+.rightcontent {
+  background: aqua;
+  width: 350px;
+  float: inherit;
+  margin-top: 30px;
+  margin-left: 40px;
+  border: 1px solid black;
+  height: 600px;
+  text-align: center;
+}
+
+.footer {
+  width: 1879px;
+  height: 119px;
+  position:relative;
+  background: yellow;
+  overflow:hidden;
+  text-align: center;
+}

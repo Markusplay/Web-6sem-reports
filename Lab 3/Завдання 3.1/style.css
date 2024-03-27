@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+}
+.header{
+    line-height: 20px;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.header a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px;
+}
+.header select{
+    border-radius: 5px;
+    margin-left: 10%;
+    font-size: large;
+    color:white;
+    background-color:rgb(53, 53, 53);
+    padding: 0.8% 2% 0.8% 2%;
+}
+.headItems{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+.content p{
+    text-align: center;
+    font-size: 40px;
+}
+  .flex-container1{
+    display: flex;
+    justify-content: center;
+  }
+  .flex-container1 > div{
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    width: 200px;
+    height: 500px;
+  }
+  .flex-container1 p {
+    font-size: 20px;
+  }
+  .flex-container1 img {
+    bottom: 0;
+    width: 190px;
+    height: 190px;
+  }
+  .flex-container2{
+    display: flex;
+    justify-content: center;
+  }
+  .flex-container2 img {
+    margin-left: 35%;
+    width: 50%;
+    height: 90%;
+  }
+.footer{
+    display: flex;
+    height: 500px;
+    position: relative;
+    
+}
+.footer #logoimg{
+    padding-right: 5px;
+}
+.footer #description{
+    padding-left: 3%;
+    width: 80%;
+    overflow:auto;
+}
+.footer img{
+    float:left;
+    margin-left: 1%;
+    margin-top: 18%;
+    width: 100%;
+    height: 65%;
+    
+}
+#events, #about, #contacts{
+    margin-left: 10px;
+}
+#main-foot{
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+}
+#main-foot::after{
+    content: '';
+    position: absolute;
+    inset:0;
+    background: gainsboro;
+    z-index: -1;
+    opacity: 70%;
+}

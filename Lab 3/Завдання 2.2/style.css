@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+.header{
+  text-align: center;
+  height: 100px;
+  background: aqua;
+  
+}
+.footer{
+  text-align: center;
+  background: aqua;
+  height: 100px;
+}
+.leftbar{
+  text-align: center;
+  width: 20%;
+  height: 100px;
+  background: yellow;
+}
+.content{
+  text-align: center;
+  width: 60%;
+  height: 100px;
+}
+.rightbar{
+  text-align: center;
+  width: 20%;
+  height: 100px;
+  background: yellow;
+}
