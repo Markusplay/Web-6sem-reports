@@ -55,19 +55,19 @@ const Lab4 = () => {
                     { tab === 2 &&
                     <div style={{width:'100%'}}>
                         {desktop}
-                        <img src="lab4/desktop.png" style={{width:'1300px', height:'1200px'}}/>
+                        <img src="lab4/desktop.png" style={{width:'1300px', height:'1200px'}} alt="" />
                     </div>
                     }
                     { tab === 3 &&
                       <div style={{width:'100%'}}>
                           {tablet}
-                          <img src="lab4/tablet.png" />
+                          <img src="lab4/tablet.png"  alt="" /> 
                       </div>
                     }
                     { tab === 4 &&
                       <div style={{width:'100%'}}>
                           {mobile}
-                          <img src="lab4/mobile.png" />
+                          <img src="lab4/mobile.png" alt="" />
                       </div>
                     }
                     { tab === 5 &&
