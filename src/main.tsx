@@ -9,6 +9,7 @@ import Lab3 from './Lab3.tsx';
 import Lab4 from './Lab4.tsx';
 import Lab5 from "./Lab5.tsx";
 import Lab6 from './Lab6.tsx';
+import Lab7 from './Lab7.tsx';
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
     {
         path: "/lab6",
         element: <Lab6/>,
+    },
+    {
+        path: "/lab7",
+        element: <Lab7/>,
     },
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(
