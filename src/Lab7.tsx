@@ -9,16 +9,16 @@ const Lab7 = () => {
         console.log(true);
     };
 
-    const handleOutsideClick = (event) => {
-        if (!event.target.closest('#place')) {
+    const handleOutsideClick = (event: MouseEvent) => {
+        if (event.target && event.target instanceof HTMLElement && !event.target.closest('#place')) {
             console.log(false);
         }
     };
 
     useEffect(() => {
-        document.addEventListener('click', handleOutsideClick);
+        window.addEventListener('click', handleOutsideClick);
         return () => {
-            document.removeEventListener('click', handleOutsideClick);
+            window.removeEventListener('click', handleOutsideClick);
         };
     }, []);
     return (
@@ -35,9 +35,10 @@ const Lab7 = () => {
                         <button style={{width: 'fit-content'}} onClick={() => setTab(2)}>Завдання 3</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(3)}>Завдання 5</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(4)}>Завдання 7</button>
-                        <button style={{width: 'fit-content'}} onClick={() => setTab(5)}>Завдання 9</button>
-                        <button style={{width: 'fit-content'}} onClick={() => setTab(6)}>Завдання 10</button>
-                        <button style={{width: 'fit-content'}} onClick={() => setTab(7)}>Висновки</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(5)}>Завдання 8</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(6)}>Завдання 9</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(7)}>Завдання 10</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(8)}>Висновки</button>
                     </div>
                     <div style={{display: "flex", marginTop:'15px'}}>
                         {tab === 0 &&
@@ -77,16 +78,17 @@ const Lab7 = () => {
                             <img src="lab7/task7.png" style={{objectFit:"none"}} alt=""/>
                         }
                         { tab === 5 &&
-                            <img src="lab7/task9.png" style={{objectFit:"none"}} alt=""/>
+                            <img src="lab7/task8.png" style={{objectFit:"none"}} alt=""/>
                         }
                         { tab === 6 &&
+                            <img src="lab7/task9.png" style={{objectFit:"none"}} alt=""/>
+                        }
+                        { tab === 7 &&
                             <img src="lab7/task10.png" style={{objectFit:"none"}} alt=""/>
                         }
-                        {tab === 7 &&
+                        {tab === 8 &&
                           <p style={{width:'100%'}}>
                               Під час виконання лабораторної роботи ми придбали практичні навички роботи з об'єктами. Методи об'єкта. Callback. Стрілочні функції. Стрілочні функції як колбеки. Реалізація програм засовами мови JAVASCRIPT
-
-                                <br />
                           </p>
                         }
                     </div>
