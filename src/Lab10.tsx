@@ -16,6 +16,7 @@ const Lab10 = () => {
                         </button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(1)}>Завдання 1</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(2)}>Завдання 2</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(3)}>Сертифікат + оцінки</button>
                     </div>
                     <div style={{display: "flex", marginTop:'15px'}}>
                         {tab === 0 &&
@@ -48,6 +49,12 @@ const Lab10 = () => {
                             <img src="lab10/week2/c8.JPG" style={{objectFit:"cover"}} alt=""/>
                             <img src="lab10/week2/c9.JPG" style={{objectFit:"cover"}} alt=""/>
                             <img src="lab10/week2/c10.JPG" style={{objectFit:"cover"}} alt=""/>
+                        </div>
+                        }
+                        { tab === 3 &&
+                        <div style={{display:'flex', width:'700px', flexDirection:'column'}}>
+                            <img src="lab10/certificate.JPG" style={{objectFit:"cover"}} alt=""/>
+                            <img src="lab10/grades.JPG" style={{objectFit:"cover"}} alt=""/>
                         </div>
                         }
                     </div>

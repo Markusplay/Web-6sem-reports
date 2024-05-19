@@ -16,7 +16,7 @@ const Lab9 = () => {
                         <button style={{width: 'fit-content'}} onClick={() => setTab(1)}>Завдання 1</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(2)}>Завдання 2</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(3)}>Завдання 3</button>
-                        <button style={{width: 'fit-content'}} onClick={() => setTab(4)}>Завдання 4</button>
+                        <button style={{width: 'fit-content'}} onClick={() => setTab(4)}>Сертифікат + оцінки</button>
                     </div>
                     <div style={{display: "flex", marginTop:'15px'}}>
                         {tab === 0 &&
