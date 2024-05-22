@@ -11,7 +11,7 @@ const Lab6 = () => {
                     <div style={{display: "flex", flexDirection: "column", gap: '20px'}}>
                         <button style={{width: 'fit-content', marginTop: '20px'}} onClick={() => setTab(0)}>Тема:
                             Мета
-                            Місце розташування лаби №6
+                            Місце розташування лаби №5.1
                         </button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(1)}>Завдання 1</button>
                         <button style={{width: 'fit-content'}} onClick={() => setTab(2)}>Завдання 3</button>
