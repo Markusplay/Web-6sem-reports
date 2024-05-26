@@ -35,6 +35,8 @@ const Lab10 = () => {
                             <img src="lab10/week1/c3.JPG" style={{objectFit:"cover"}} alt=""/>
                             <img src="lab10/week1/c4.JPG" style={{objectFit:"cover"}} alt=""/>
                             <img src="lab10/week1/c5.JPG" style={{objectFit:"cover"}} alt=""/>
+                            <img src="lab10/week1/c6.JPG" style={{objectFit:"cover"}} alt=""/>
+                            <img src="lab10/week1/c7.JPG" style={{objectFit:"cover"}} alt=""/>
                         </div>
                         }
                          { tab === 2 &&
